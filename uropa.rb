@@ -2,16 +2,16 @@
 class Uropa < Formula
   desc "Declarative configuration for Opa"
   homepage "https://github.com/ninjaneers-team/uropa"
-  version "1.3.2"
+  version "1.3.3"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/ninjaneers-team/uropa/releases/download/v1.3.2/uropa_1.3.2_darwin_amd64.tar.gz"
-    sha256 "9e164b94ab785612aa1aee4950ee42d2b3480eede9cd45b0e270739220d50282"
+    url "https://github.com/ninjaneers-team/uropa/releases/download/v1.3.3/uropa_1.3.3_darwin_amd64.tar.gz"
+    sha256 "d799fdbdab38b66e687dfe7e5d7e6c102f271cd58706e9347bbf5bc8c60a837f"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/ninjaneers-team/uropa/releases/download/v1.3.2/uropa_1.3.2_linux_amd64.tar.gz"
-      sha256 "2176776872efb317c742bb0c7b127d37a81cd84f48934863b10de6f3694857ef"
+      url "https://github.com/ninjaneers-team/uropa/releases/download/v1.3.3/uropa_1.3.3_linux_amd64.tar.gz"
+      sha256 "edc75283b606eb5b2a340a276020e91247664d7ae0fd9ff07fa1ff3ee35f497b"
     end
   end
 
